@@ -1,7 +1,0 @@
-/Advanced/Arrays/Lab/.vscode
-/Advanced/DOM/Lab/.vscode
-/Advanced/DOM manipulations/Lab/.vscode
-/Advanced/Function context/Lab/.vscode
-/Advanced/Introduction/Lab/.vscode
-/Advanced/Arrays/Objects and classes/.vscode
-/Advanced/Syntax, functions and statements/Lab/.vscode
