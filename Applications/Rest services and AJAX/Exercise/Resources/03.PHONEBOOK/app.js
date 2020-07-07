@@ -15,24 +15,29 @@ function attachEvents() {
 
         let [personValue, phoneValue] = [personInput.value, phoneInput.value];
 
-        fetch(url, {
-            method: 'POST',
-            body: JSON.stringify({
+        if (personInput.valie !== '' && phoneInput.value !== '') {
 
-                person: personValue,
-                phone: phoneValue
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify({
+
+                    person: personValue,
+                    phone: phoneValue
+                })
             })
-        })
-            .then((response) => response.json())
-            .then((response) => {
+                .then((response) => response.json())
+                .then((response) => {
 
-                phonebook.push(response);
-                person.value = '';
-                phone.value = '';
-            });
+                    phonebook.push(response);
+                    person.value = '';
+                    phone.value = '';
+                });
+        }
     });
 
     loadBtn.addEventListener('click', function () {
+
+        phonesUl.innerHTML = '';
 
         if (phonebook.length == 0) {
 
@@ -41,10 +46,7 @@ function attachEvents() {
             list.textContent = 'No entries!';
 
             phonesUl.appendChild(list);
-            return;
         }
-
-        phonesUl.innerHTML = '';
 
         phonebook.forEach(contact => {
 
