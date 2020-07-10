@@ -1,0 +1,13 @@
+{
+    "lastLogin": null,
+    "userStatus": "ENABLED",
+    "socialAccount": null,
+    "created": 1594359683000,
+    "name": "Test user",
+    "email": "test@user.bg",
+    "blUserLocale": "en",
+    "updated": null,
+    "objectId": "1B3A4506-FB74-4B9B-9FAD-929896548535",
+    "ownerId": "1B3A4506-FB74-4B9B-9FAD-929896548535",
+    "___class": "Users"
+}

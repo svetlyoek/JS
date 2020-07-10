@@ -1,0 +1,35 @@
+[
+    {
+        "bar": null,
+        "foo": null,
+        "created": 1594359224000,
+        "name": "Post1",
+        "updated": null,
+        "objectId": "5400E785-365B-44C8-9CD1-07FFBCF70851",
+        "body": "Post1 body",
+        "ownerId": null,
+        "___class": "collection"
+    },
+    {
+        "bar": null,
+        "foo": null,
+        "created": 1594359259000,
+        "name": "Post2",
+        "updated": null,
+        "objectId": "01B44248-B487-4C48-A04B-3C7376EABE04",
+        "body": "Post2 body",
+        "ownerId": null,
+        "___class": "collection"
+    },
+    {
+        "bar": null,
+        "foo": null,
+        "created": 1594359300000,
+        "name": "Post3",
+        "updated": null,
+        "objectId": "8BACB8D4-E1BA-4472-BEBB-99BAB6A9AB41",
+        "body": "Post3 body",
+        "ownerId": null,
+        "___class": "collection"
+    }
+]

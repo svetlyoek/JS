@@ -1,0 +1,12 @@
+[
+    null,
+    {
+        "author": "New author was assigned",
+        "title": "Under the Yoke"
+    },
+    {
+        "author": "Author changed",
+        "title": "C# Fundamentals",
+        "year": 1981
+    }
+]

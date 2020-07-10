@@ -1,0 +1,14 @@
+{
+    "lastLogin": 1594359782264,
+    "userStatus": "ENABLED",
+    "socialAccount": "BACKENDLESS",
+    "created": 1594359683000,
+    "name": "Test user",
+    "email": "test@user.bg",
+    "blUserLocale": "en",
+    "updated": null,
+    "objectId": "1B3A4506-FB74-4B9B-9FAD-929896548535",
+    "ownerId": "1B3A4506-FB74-4B9B-9FAD-929896548535",
+    "___class": "Users",
+    "user-token": "3E687BE1-BE86-4CF3-895F-658A783519EA"
+}
