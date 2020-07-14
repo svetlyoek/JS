@@ -39,11 +39,14 @@ const contacts = [
 
 async function loadHtml() {
 
-    const contactsHtml = document.getElementById('contacts');
+    const contactsHtml = document.getElementById('app');
 
-    const data = await (await fetch('./contact.hbs')).text();
+    const templateString = await (await fetch('./contacts.hbs')).text();
+    const contactString = await (await fetch('./contact.hbs')).text();
+    
+    const template = Handlebars.compile(templateString);
+    Handlebars.registerPartial('contact', contactString);
 
-    const template = Handlebars.compile(data);
     contactsHtml.innerHTML = template({ contacts });
 };
 
