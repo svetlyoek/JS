@@ -41,7 +41,7 @@ async function loadHtml() {
 
     const contactsHtml = document.getElementById('app');
 
-    const templateString = await (await fetch('./contacts.hbs')).text();
+    const templateString = await (await fetch('./contact-template.hbs')).text();
     const contactString = await (await fetch('./contact.hbs')).text();
     
     const template = Handlebars.compile(templateString);
